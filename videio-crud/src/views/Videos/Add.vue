@@ -16,7 +16,7 @@
     </div>
     <div class="d-flex justify-content-center">
         <Button class="me-3" type="primary" type-button="submit">Agregar</Button>
-        <Button>Cancelar</Button>
+        <Button event="click" :callback="cancelarF" >Cancelar</Button>
     </div>
     </form>
   </div>
@@ -63,6 +63,9 @@ export default {
             }
             
         },
+        cancelarF() {
+            this.$router.push("/")
+        }
     },
 };
 </script>
