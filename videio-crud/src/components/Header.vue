@@ -2,7 +2,7 @@
   <header class="header">
         <nav class="navbar navbar-dark bg-primary">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">CRUD VIDEOS</a>
+            <a class="navbar-brand" href="/">CRUD VIDEOS</a>
             <Button v-show="checkComponent" event="click" :callback="redirectAdd" type="primary">Agregar Video</Button>
         </div>
         </nav>
