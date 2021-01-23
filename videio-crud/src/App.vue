@@ -5,6 +5,7 @@
 </template>
 <script>
 import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap';
 import Layout from '@/components/Layout';
 export default {
   name: 'App',

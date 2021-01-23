@@ -1,6 +1,7 @@
 <template>
   <div class="view-add">
     <form @submit.prevent="handleSubmit">
+    <h2>Agregar Video</h2>
     <div class="mb-3">
         <label class="form-label">Titulo</label>
         <input v-model="form.title" type="text" class="form-control">
@@ -66,4 +67,7 @@ export default {
 };
 </script>
 <style lang="scss">
+h2 {
+    margin-bottom: 25px;
+}
 </style>
